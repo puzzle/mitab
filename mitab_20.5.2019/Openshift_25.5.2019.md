@@ -3,9 +3,9 @@
 + [Openshift CLI](https://docs.okd.io/latest/cli_reference/index.html) installieren 
 + [Minishift](https://docs.okd.io/latest/minishift/index.html) installieren 
 
-## Erste Schritte auf der Lab Plattform
+## Erste Schritte auf der Minishift Plattform
 
-In diesem Lab werden wir gemeinsam das erste Mal mit der Lab Plattform interagieren, dies sowohl über den oc Client wie auch über die Web Console
+In diesem Lab werden wir gemeinsam das erste Mal mit der Minishift Plattform interagieren, dies sowohl über den oc Client wie auch über die Web Console
 
 ### Login
 
