@@ -3,6 +3,23 @@
 + [Openshift CLI](https://docs.okd.io/latest/cli_reference/index.html) installieren 
 + [Minishift](https://docs.okd.io/latest/minishift/index.html) installieren 
 
+```
+$ oc version
+
+oc v3.11.0+0cbc58b
+kubernetes v1.11.0+d4cacc0
+features: Basic-Auth GSSAPI Kerberos SPNEGO
+
+Server https://192.168.42.79:8443
+kubernetes v1.11.0+d4cacc0
+```
+
+```
+$ minishift version
+
+minishift v1.33.0+ba29431
+```
+
 ## Erste Schritte auf der Minishift Plattform
 
 In diesem Lab werden wir gemeinsam das erste Mal mit der Minishift Plattform interagieren, dies sowohl über den oc Client wie auch über die Web Console
@@ -13,7 +30,7 @@ In diesem Lab werden wir gemeinsam das erste Mal mit der Minishift Plattform int
 
 Der Befehl für das Login mit `oc` kann komfortabel via Webinterface kopiert werden. Dazu oben rechts auf das Account-Symbol und anschliessend auf *Copy Login Command* klicken:
 
-![oc-login](../images/lab_3_login.png)
+![oc-login](../images/login.png)
 
 Den Befehl nun in einem Terminal-Fenster einfügen.
 
@@ -57,7 +74,7 @@ Die OpenShift Web Console erlaubt es den Benutzern gewisse Tasks direkt via Brow
    ```
    https://github.com/appuio/example-php-sti-helloworld.git
    ```
-   ![php](../images/lab_3_php.png)
+   ![php](../images/php.png)
 
 1. Mit Klick auf *Create* wird die Applikation erstellt
 
