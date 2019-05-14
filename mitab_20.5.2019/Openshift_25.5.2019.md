@@ -127,7 +127,7 @@ In diesem Lab werden wir gemeinsam das erste "pre-built" Docker Image deployen u
 
 ## Aufgabe: 3
 
-Nachdem wir im vorhin den Source-to-Image Workflow verwendet haben, um eine Applikation auf OpenShift zu deployen, wenden wir uns nun dem Deployen eines pre-built Docker Images von Docker Hub oder einer anderen Docker-Registry zu.
+Nachdem wir vorhin den Source-to-Image Workflow verwendet haben, um eine Applikation auf OpenShift zu deployen, wenden wir uns nun dem Deployen eines pre-built Docker Images von Docker Hub oder einer anderen Docker-Registry zu.
 
 > [Weiterführende Dokumentation](https://docs.openshift.com/container-platform/3.9/dev_guide/application_lifecycle/new_app.html#specifying-an-image)
 
