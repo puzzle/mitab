@@ -20,14 +20,13 @@ Den Befehl nun in einem Terminal-Fenster einfügen.
 
 ### Projekt erstellen
 
-Ein Projekt in OpenShift ist das Top Level Konzept um Ihre Applikationen, Deployments, Builds, Container etc. zu organisieren. Siehe [Lab1](01_quicktour.md).
-
+Ein Projekt in OpenShift ist das Top Level Konzept um Ihre Applikationen, Deployments, Builds, Container etc. zu organisieren.
 
 ### Aufgabe: 1
 
-Erstellen Sie auf der Lab Plattform ein neues Projekt.
+Erstellen Sie auf der Minishift Plattform ein neues Projekt.
 
-**Note**: Verwenden Sie für Ihren Projektnamen am besten Ihren Techlab-Benutzernamen oder sonstigen Identifier, bspw. `[USER]-example1`
+**Note**: Verwenden Sie für Ihren Projektnamen am besten Ihren Benutzernamen oder sonstigen Identifier, bspw. `[USER]-example1`
 
 > Wie kann ein neues Projekt erstellt werden?
 
