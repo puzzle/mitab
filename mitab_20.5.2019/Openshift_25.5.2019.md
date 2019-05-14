@@ -30,7 +30,7 @@ In diesem Lab werden wir gemeinsam das erste Mal mit der Minishift Plattform int
 
 Der Befehl für das Login mit `oc` kann komfortabel via Webinterface kopiert werden. Dazu oben rechts auf das Account-Symbol und anschliessend auf *Copy Login Command* klicken:
 
-![oc-login](../images/login.png)
+![oc-login](assets/login.png)
 
 Den Befehl nun in einem Terminal-Fenster einfügen.
 
@@ -74,7 +74,7 @@ Die OpenShift Web Console erlaubt es den Benutzern gewisse Tasks direkt via Brow
    ```
    https://github.com/appuio/example-php-sti-helloworld.git
    ```
-   ![php](../images/php.png)
+   ![php](assets/php.png)
 
 1. Mit Klick auf *Create* wird die Applikation erstellt
 
