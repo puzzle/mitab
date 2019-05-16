@@ -23,7 +23,7 @@ minishift v1.33.0+ba29431
 ```
 $ minishift start
 ```
- **Note:** Bitte einmal vor dem mitab testen. Sollte es bei der Demo nicht funktionieren können Sie nicht mitmachen. 
+ **Note:** Bitte einmal vor dem mitab testen.
  
 
 ## mitab Openshift Hands-On Demo
