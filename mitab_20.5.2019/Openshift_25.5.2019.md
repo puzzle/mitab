@@ -23,12 +23,12 @@ minishift v1.33.0+ba29431
 ```
 $ minishift start
 ```
- **Note:** Bitte einmal vor dem mitab testen
+ **Note:** Bitte einmal vor dem mitab testen. Sollte es bei der Demo nicht funktionieren können Sie nicht mitmachen. 
  
 
-## Erste Schritte auf der Minishift Plattform
+## mitab Openshift Hands-On Demo
 
-In diesem Lab werden wir gemeinsam das erste Mal mit der Minishift Plattform interagieren, dies sowohl über den oc Client wie auch über die Web Console
+In diesem mitab werden wir gemeinsam das erste Mal mit der Minishift Plattform interagieren, dies sowohl über den oc Client wie auch über die Web Console
 
 ### Login
 
@@ -122,7 +122,7 @@ $ oc new-project [USER]-example1
 
 ##Ein Docker Image deployen
 
-In diesem Lab werden wir gemeinsam das erste "pre-built" Docker Image deployen und die OpenShift-Konzepte Pod, Service, DeploymentConfig und ImageStream etwas genauer anschauen.
+In diesem mitab werden wir gemeinsam das erste "pre-built" Docker Image deployen und die OpenShift-Konzepte Pod, Service, DeploymentConfig und ImageStream etwas genauer anschauen.
 
 
 ## Aufgabe: 3
@@ -176,7 +176,7 @@ Output:
 
 ```
 
-Für unser Lab verwenden wir ein APPUiO-Beispiel (Java Spring Boot Applikation):
+Für unsere Demo verwenden wir ein APPUiO-Beispiel (Java Spring Boot Applikation):
 - Docker Hub: https://hub.docker.com/r/appuio/example-spring-boot/
 - GitHub (Source): https://github.com/appuio/example-spring-boot-helloworld
 
@@ -214,7 +214,7 @@ Als wir `oc new-app appuio/example-spring-boot` vorhin ausführten, hat OpenShif
 
 Als Beispiel: Wenn eine Applikationsinstanz unseres Beispiels die Last nicht mehr alleine verarbeiten kann, können wir die Applikation bspw. auf drei Pods hochskalieren. OpenShift mapt diese als Endpoints automatisch zum Service. Sobald die Pods bereit sind, werden Requests automatisch auf alle drei Pods verteilt.
 
-**Note:** Die Applikation kann aktuell von aussen noch nicht erreicht werden, der Service ist ein OpenShift-internes Konzept. Im folgenden Lab werden wir die Applikation öffentlich verfügbar machen.
+**Note:** Die Applikation kann aktuell von aussen noch nicht erreicht werden, der Service ist ein OpenShift-internes Konzept.
 
 Nun schauen wir uns unseren Service mal etwas genauer an:
 
